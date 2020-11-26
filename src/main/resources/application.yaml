@@ -1,3 +1,14 @@
 spring:
   mustache:
     suffix: .html
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bakery
+    data-username: root
+    data-password: root
+    driver-class-name: org.postgresql.Driver
