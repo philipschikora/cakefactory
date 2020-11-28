@@ -9,6 +9,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
     url: jdbc:postgresql://localhost:5432/bakery
-    data-username: root
-    data-password: root
+    username: philip
+    password: root
     driver-class-name: org.postgresql.Driver
