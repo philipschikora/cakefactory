@@ -1,5 +1,3 @@
-CREATE TABLE IF NOT EXISTS PASTRY(
-    ID INT NOT NULL AUTO_INCREMENT,
-    NAME VARCHAR(255) NOT NULL,
-    PRIMARY KEY (ID)
-);
+INSERT INTO pastry (id, name) VALUES (1, 'Ausgezogener');
+INSERT INTO pastry (id, name) VALUES (2, 'Krapfen');
+INSERT INTO pastry (id, name) VALUES (3, 'Dampfnudel');
